@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Streamlit
+.streamlit/
+
+# AI Models and Caches
+.cache/
+models/
+*.safetensors
+*.ckpt
+
+# Output Directories
+generated_images/
+logs/
+*.log
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
