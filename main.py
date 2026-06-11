@@ -8,6 +8,14 @@ import logging
 from uuid import uuid4
 from datetime import datetime, timedelta, timezone
 
+# ── Load .env before anything reads environment variables ─────────────────────
+try:
+    from dotenv import load_dotenv
+    load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), ".env"), override=False)
+except ImportError:
+    pass  # python-dotenv not installed; rely on system environment variables
+
+
 # ══════════════════════════════════════════════════════════════════════════════
 # REDIRECT MODEL CACHES TO E: DRIVE
 # C: drive is nearly full (~10 MB free). All HuggingFace, Torch, and
