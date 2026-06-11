@@ -78,10 +78,12 @@ EchoTales was engineered to run effectively on consumer-grade hardware (specific
 
 ### 📁 Included in This Repository (`samples/`)
 
-| File | Description |
+| File | Story Prompt |
 |---|---|
-| [`samples/story_video.mp4`](./samples/story_video.mp4) | AI-generated story video with visuals & narration |
-| [`samples/narration.mp3`](./samples/narration.mp3) | TTS audio narration of the generated story |
+| [`Demo 1`](./samples/echotales%20demo1(a%20mother%20and%20a%20son%20on%20their%20vacation).mp4) | *"A mother and a son on their vacation"* |
+| [`Demo 2`](./samples/echotales%20demo2(Tell%20me%20an%20emotional%20dark%20fantasy%20story%20set%20in%20a%20ruined%20kingdom%20where%20dragons%20once%20protected%20humanity%20but%20suddenly%20disappeared%20100%20years%20ago.).mp4) | *"Emotional dark fantasy — ruined kingdom where dragons disappeared 100 years ago"* |
+| [`Demo 3`](./samples/echotales%20demo3(Captain%20Arjun%20and%20his%20AI%20companion%20NOVA%20must%20sail%20through%20a%20storm%20of%20magnetic%20lightning).mp4) | *"Captain Arjun and his AI companion NOVA sailing through magnetic lightning"* |
+| [`narration.mp3`](./samples/narration.mp3) | TTS audio narration sample |
 
 ---
 
