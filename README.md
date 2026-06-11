@@ -74,6 +74,33 @@ EchoTales was engineered to run effectively on consumer-grade hardware (specific
 
 ---
 
+## 🎬 Sample Output
+
+### 📁 Included in This Repository (`samples/`)
+
+| File | Description |
+|---|---|
+| [`samples/story_video.mp4`](./samples/story_video.mp4) | AI-generated story video with visuals & narration |
+| [`samples/narration.mp3`](./samples/narration.mp3) | TTS audio narration of the generated story |
+
+---
+
+### 🌐 Full Demo on Google Drive
+
+> 🎥 **[View Full Demo → Google Drive](https://drive.google.com/drive/folders/1_QTTj2v9ESarEr-uqim0nFR_alm4zfse?usp=drive_link)**
+
+The Google Drive folder contains the **complete end-to-end demo**, including:
+
+| Demo | Description |
+|---|---|
+| 🖥️ **Streamlit UI Demo** | Full walkthrough of story generation, image synthesis, and character chat |
+| ☁️ **Azure Integration Demo** | Uploading assets to Azure Blob Storage & generating SAS URLs |
+| 🖼️ **Generated Scene Images** | All 10 AI-generated illustrations from a sample story run |
+| 🎬 **Final Story Video** | Full HD narrated video assembled by MoviePy |
+| 🔊 **Audio Narration** | gTTS-generated audio from the story |
+
+---
+
 ## 📁 Repository Structure
 
 ```text
@@ -83,6 +110,10 @@ ECHOTALES/
 ├── run.ps1 / run.bat      # Helper scripts for launching the app
 ├── .env                   # API Keys and Environment Variables (Not committed)
 ├── .gitignore             # Version control exclusions
+├── samples/               # Sample outputs from a real EchoTales run
+│   ├── screenshot.png     # App UI screenshot
+│   ├── story_video.mp4    # Generated story video
+│   └── *.png              # Sample scene illustrations
 └── README.md              # Project documentation
 ```
 

@@ -21,8 +21,17 @@ models/
 
 # Output Directories
 generated_images/
+output/
 logs/
 *.log
+
+# Generated media files (root level only — samples/ folder is allowed)
+/story_video.mp4
+/output.mp3
+
+# Explicitly allow the samples folder
+!samples/
+!samples/**
 
 # IDEs and OS files
 .vscode/
